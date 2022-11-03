@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
+header{
+    color: #C2E5D3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    border: 1px solid red;
+    font-size: 2rem;
+}
+.nav-ul{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-between;
+    flex-basis: 45%;
+    list-style: none;
+}
+.nav-ul a{
+    text-decoration: none;
+}
+

@@ -7,23 +7,27 @@ html{
     font-size: 10px;
 }
 header{
-    color: #C2E5D3;
+   background-color: #C2E5D3;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 10rem;
     border: 1px solid red;
     font-size: 2rem;
 }
 .nav-ul{
     display: flex;
-    border: 1px solid blue;
     justify-content: space-between;
+    align-items: center;
     flex-basis: 45%;
     list-style: none;
 }
 .nav-ul a{
     text-decoration: none;
+}
+.logo-div img{
+    width: 60%;
 }
 

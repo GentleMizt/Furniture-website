@@ -20,6 +20,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
+    margin-bottom: 8rem;
 }
 .nav-ul{
     display: flex;
@@ -43,4 +44,24 @@ nav{
 .nav-ul div img{
     width: 60%;
 }
-
+.header-cnt1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.modern-txt h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+   
+}
+.modern-txt p{
+    font-size: 1.9rem;
+}
+.modern-img{
+    /* border: 1px solid blue; */
+    flex-basis: 50%;
+}
+.modern-img img{
+    width: 75%;
+}

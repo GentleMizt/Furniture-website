@@ -10,12 +10,15 @@ header{
    background-color: #C2E5D3;
    padding: 1.5rem 0;
 }
+.header-div{
+    width: 83vw;
+    /* border: 1px solid red; */
+    margin: auto;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10rem;
-    /* border: 1px solid red; */
     font-size: 2rem;
 }
 .nav-ul{

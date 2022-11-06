@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 html{
     font-size: 10px;
 }
 header{
    background-color: #C2E5D3;
+   background-image: url("data:image/svg+xml,%3Csvg width='1440' height='754' viewBox='0 0 1440 754' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1440 24.8274C1440 141.874 1440 804 1440 804C1440 804 -7 862.046 -7 745C-7 627.954 731.349 242.585 851.04 242.585C970.731 242.585 1440 -92.219 1440 24.8274Z' fill='%23B2D2C2'/%3E%3C/svg%3E");
    padding: 1.5rem 0;
 }
 .header-div{
@@ -64,4 +66,7 @@ nav{
 }
 .modern-img img{
     width: 75%;
+}
+.svg-div{
+    width: 90vw;
 }

@@ -60,6 +60,13 @@ nav{
 .modern-txt p{
     font-size: 1.9rem;
 }
+.btn1{
+    background-color: #006732;
+    border: none;
+    color: #fff;
+    border-radius: .7rem;
+    padding: 1rem;
+}
 .modern-img{
     /* border: 1px solid blue; */
     flex-basis: 50%;

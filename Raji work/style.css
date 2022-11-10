@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 html{
     font-size: 10px;
@@ -73,11 +74,13 @@ nav{
     font-weight: 300;
 }
 .modern-txt{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    width: 55%;
 }
 .modern-img{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     flex-basis: 50%;
+    margin-left: 2rem;
 }
 .modern-img img{
     width: 75%;
@@ -86,7 +89,7 @@ nav{
     display: flex;
     flex-direction: column;
     margin-left: 8rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .img-flex .ellipse{
     margin-left: 5.5rem;
@@ -97,7 +100,7 @@ nav{
 }
 .icons-grp img{
     width: 65%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .svg-div{
     width: 90vw;

@@ -78,7 +78,7 @@ nav{
     width: 55%;
 }
 .modern-img{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     flex-basis: 50%;
 }
 .modern-img img{
@@ -92,7 +92,7 @@ nav{
 }
 .img-flex .ellipse{
     margin-left: 7rem;
-    /* margin-top: -3rem; */
+    margin-top: -2rem;
 }
 .ellipse img{
     width: 55%;

@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 html{
     font-size: 10px;
@@ -80,7 +80,6 @@ nav{
 .modern-img{
     border: 1px solid blue;
     flex-basis: 50%;
-    margin-left: 2rem;
 }
 .modern-img img{
     width: 75%;
@@ -92,11 +91,14 @@ nav{
     /* border: 1px solid red; */
 }
 .img-flex .ellipse{
-    margin-left: 5.5rem;
-    margin-top: -3rem;
+    margin-left: 7rem;
+    /* margin-top: -3rem; */
+}
+.ellipse img{
+    width: 55%;
 }
 .icons-grp{
-    margin: 0 0 -7rem 3rem;
+    margin: 0 0 0 3rem;
 }
 .icons-grp img{
     width: 65%;

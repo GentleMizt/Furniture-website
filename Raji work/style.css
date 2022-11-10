@@ -92,8 +92,11 @@ nav{
     margin-left: 5.5rem;
     margin-top: -3rem;
 }
+.icons-grp{
+    margin: 0 0 -7rem 3rem;
+}
 .icons-grp img{
-    width: 60%;
+    width: 65%;
     border: 1px solid black;
 }
 .svg-div{

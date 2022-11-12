@@ -107,3 +107,11 @@ nav{
 .svg-div{
     width: 90vw;
 }
+.furn-rtgs{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.furn-divs img{
+    width: 60%;
+}

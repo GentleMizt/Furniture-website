@@ -109,18 +109,19 @@ nav{
 }
 .furn-rtgs{
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .furn-divs h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .furn-divs img{
-    width: 60%;
+    width: 70%;
 }
 .furn-icon img{
     position: relative;
-    left: 3rem;
+    left: 2.2rem;
 }

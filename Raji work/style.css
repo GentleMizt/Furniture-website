@@ -109,8 +109,13 @@ nav{
 }
 .furn-rtgs{
     display: flex;
+    margin-top: 2rem;
     justify-content: space-between;
-    border: 1px solid red;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.furn-divs h3{
+    font-size: 2rem;
 }
 .furn-divs img{
     width: 60%;

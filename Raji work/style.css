@@ -112,11 +112,15 @@ nav{
     margin-top: 2rem;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 .furn-divs h3{
     font-size: 2rem;
 }
 .furn-divs img{
     width: 60%;
+}
+.furn-icon img{
+    position: relative;
+    left: 3rem;
 }

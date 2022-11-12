@@ -118,10 +118,23 @@ nav{
     font-size: 1.5rem;
     font-weight: 500;
 }
+.furn-divs{
+    z-index: 1;
+}
 .furn-divs img{
     width: 70%;
 }
 .furn-icon img{
     position: relative;
     left: 2.2rem;
+}
+.ratings-div{
+    position: relative;
+    top: -3rem;
+    padding: 0 1rem;
+}
+.ratings-div img{
+    width: 30%;
+    
+    
 }

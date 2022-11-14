@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 html{
     font-size: 10px;
@@ -49,6 +49,7 @@ nav{
 }
 .header-cnt1{
     display: flex;
+    padding: 3rem 0;
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid red; */
@@ -96,6 +97,9 @@ nav{
 .img-flex .ellipse{
     margin-left: 7rem;
     margin-top: -2rem;
+    animation-name: shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 .ellipse img{
     width: 55%;
@@ -164,10 +168,18 @@ nav{
 
 
 @keyframes chair{
-    /* 0%{
+    0%{
         transform: translateY(1rem);
-    } */
+    }
     100%{
         transform: translateY(-1rem);
+    }
+}
+@keyframes shadow{
+    0%{
+        /* transform: translateY(-1rem); */
+    }
+    100%{
+        transform: translateY(1rem);
     }
 }

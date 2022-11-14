@@ -80,6 +80,9 @@ nav{
 .modern-img{
     /* border: 1px solid blue; */
     flex-basis: 50%;
+    animation-name: chair;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
 }
 .modern-img img{
     width: 75%;
@@ -134,7 +137,37 @@ nav{
     padding: 0 1rem;
 }
 .ratings-div img{
-    width: 30%;
-    
-    
+    width: 30%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes chair{
+    /* 0%{
+        transform: translateY(1rem);
+    } */
+    100%{
+        transform: translateY(-1rem);
+    }
 }

@@ -167,7 +167,7 @@ nav{
 
 
 
-@keyframes chair{
+/* @keyframes chair{
     0%{
         transform: translateY(1rem);
     }
@@ -177,9 +177,9 @@ nav{
 }
 @keyframes shadow{
     0%{
-        /* transform: translateY(-1rem); */
+        transform: translateY(-1rem);
     }
     100%{
         transform: translateY(1rem);
     }
-}
+} */
